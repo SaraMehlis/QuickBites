@@ -32,7 +32,7 @@
         <nav>
             <ul id="drop-menu">
                 <li><a href="index.html">Home</a></li>
-                
+
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact-us.html">Contact Us</a></li>
             </ul>
@@ -41,27 +41,20 @@
 
     <!--main-->
     <main>
-        <!--home page img-->
-        <!--img in assets folder ready for styling-->
-        <section id="italian-cusine-img">
-            <div id="cover-text">
-                <h2>A collection of quick and easy italian recipes</h2>
-                <h5>in 30 minutes or less</h5>
-            </div>
-        </section>
-        <!--pizza pasta dessert section-->
-        <section id="food-categories">
-            <div id="pizza">
-                <h2><a href="pizza.html"><i class="fa-solid fa-pizza-slice">Pizza</i></a></h2>
-            </div>
+        <section id="contact-us">
+            <h1>Let us know what you think!</h1>
+            <form id="contact-us-form" method="POST" action="send-feedback">
+                <label for="full-name">Full name</label>
+                <input type="text" id="full-name" name="full-name" required>
 
-            <div id="pasta">
-                <h2><a href="pasta.html"><i class="fa-solid fa-bowl-food">Pasta</i></a></h2>
-            </div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
 
-            <div id="desserts">
-                <h2><a href="dessert"><i class="fa-solid fa-ice-cream">Dessert</i></a></h2>
-            </div>
+                <label for="feedback">Your Feedback</label>
+                <textarea id="feedback" name="feedback" rows="6" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
         </section>
     </main>
 
