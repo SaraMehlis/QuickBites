@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-/* General styles */
+/*------------------------------------------General styles */
 body {
     min-height: 100vh;
     display: flex;
@@ -18,7 +18,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-/* Header */
+/*---------------------------------------------Header */
 header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -57,7 +57,7 @@ h1 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Navbar styles with dropdown toggle */
+/* -------------------------Navbar styles with dropdown toggle */
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -69,7 +69,7 @@ nav {
     top: 100%;
 }
 
-/*-------------------------Nav toggle */
+/*-----------------------------------------Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -82,7 +82,7 @@ nav {
     font-size: 2rem;
 }
 
-/*-----------------Main content */
+/*--------------------------------------Main content */
 
 main {
     background-color:#ffffff;
@@ -97,6 +97,14 @@ main {
     background: url("../images/italian-cusine-img.jpg") no-repeat center center/cover;
     position: relative;
 
+ }
+
+ #hero-text {
+  position: absolute;
+  font-weight: 500;
+  text-align: center;
+  top: 50%;
+  left: 50%;
  }
 
 #maintext {
@@ -118,7 +126,7 @@ main {
 
 }
 
-/* Footer */
+/*-----------------------------------------Footer */
 
 #copyright {
     color: black;
