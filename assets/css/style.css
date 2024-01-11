@@ -102,7 +102,8 @@ main {
  #hero-text {
     text-align: center;
     font-size: large;
-    font-family: "oswald", sans serif;  
+    font-family: "oswald", sans serif; 
+    margin-top: 10px; 
  }
 
 #maintext {
@@ -148,6 +149,7 @@ h2 > a {
 
 #image-container > img {
     margin-top: 20px;
+    margin-bottom: 20px;
     height: 400px;
     width: 400px;
 }
@@ -273,7 +275,7 @@ h2 > a {
         margin: 0 0.5rem;
     }
 
-    /* Main content */
+    /* Main conent*/
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
@@ -300,5 +302,13 @@ h2 > a {
         padding: 50px 15px 50px 15px;
 
 
+    }
+}
+
+/*------------------Media query hides home page images on mobile--*/
+
+@media screen and (max-width: 720px) {
+    #image-container {
+        display: none;
     }
 }
