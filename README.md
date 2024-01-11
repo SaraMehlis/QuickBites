@@ -36,6 +36,10 @@ AS a user, I want to,
 <ul>
   <li>Navigation bar:</li>
   The navigation bar has a consistent look in all four pages of the website supporting easy navigation. It includes a simple Logo, Home page, Recipes, About and Contact us links and is responsive on multiple screen sizes. On small screens (e.g. mobile devices) the Home, Recipes, About and Contact us links move to under the Logo.
+ <li>The footer</li>
+  The footer is featured on all four pages and is identical on each page making it easy to use. It contains three links to social media sites associated with the website encouraging the user to keep connected. The links will open in a new tab to allow easy navigation for the user. The company can use these sites to promote the brand and keep customers interested. 
+  <li>Images</li>
+  
   <!--Recipes section-->
   <li>About Page</li>
   <li>Contact us page:</li>
