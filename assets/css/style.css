@@ -103,14 +103,43 @@ main {
     margin-top: 10px; 
  }
 
+ .title {
+    text-shadow: 1px 1px 1px #000000;
+    text-transform: uppercase;
+    margin-bottom:50px;
+}
+
+#steps {
+    list-style-position: inside;
+    list-style-type: decimal;
+}
+
 #maintext {
     letter-spacing: 0.1em;
     color: black;
     margin-bottom: 35px;
-    margin-top: 20px;
+    margin-top: 90px;
     text-align: center;
     font-size: 200%;
 }
+
+#maintext-recipe {
+    letter-spacing: 0.1em;
+    color: black;
+    margin-bottom: 35px;
+    margin-top: 90px;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 500;
+}
+
+#sub-heading  {
+    margin-bottom: 20px;
+
+}
+
+
+
 /*-----------------------------------------Content for MAIN ABOUT*/
 #hero-text-about {
     text-align: center;
@@ -122,7 +151,7 @@ main {
  #hero-text-about > p {
     text-align: center;
     font-size: 25px;
-    font-family: "oswald", sans serif; 
+    font-family: "LatoS", sans serif; 
     margin-top: 50px; 
     margin-bottom:30px
  }
