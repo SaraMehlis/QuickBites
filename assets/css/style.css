@@ -111,6 +111,22 @@ main {
     text-align: center;
     font-size: 200%;
 }
+/*-----------------------------------------Content for MAIN ABOUT*/
+#hero-text-about {
+    text-align: center;
+    font-size: 30px;
+    font-family: "oswald", sans serif; 
+    margin-top: 10px; 
+ }
+
+ #hero-text-about > p {
+    text-align: center;
+    font-size: 25px;
+    font-family: "oswald", sans serif; 
+    margin-top: 50px; 
+    margin-bottom:30px
+ }
+
 /*-----------------------------------------Main icons hover effect & color*/
 
 
