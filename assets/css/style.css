@@ -103,7 +103,7 @@ main {
  #hero-text {
     text-align: center;
     font-size: 30px;
-    font-family: "oswald", sans serif; 
+    font-family: "oswald", sans-serif; 
     margin-top: 10px; 
     font-weight: 300;
  }
@@ -159,14 +159,14 @@ main {
 #hero-text-about {
     text-align: center;
     font-size: 30px;
-    font-family: "oswald", sans serif; 
+    font-family: "oswald", sans-serif; 
     margin-top: 10px; 
  }
 
  #hero-text-about > p {
     text-align: center;
     font-size: 25px;
-    font-family: "LatoS", sans serif; 
+    font-family: "LatoS", sans-serif; 
     margin-top: 50px; 
     margin-bottom:30px
  }
@@ -191,7 +191,7 @@ h2 > a {
     font-family: "lato", sans-serif;
     letter-spacing: 0.2em;
     color:black;
-    margin-top: 20px, 20px, 20, 20px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -266,7 +266,7 @@ h2 > a {
     padding: 16px 32px;
     text-align: center;
     font-size: 16px;
-    font-family:"lato", sans serif;
+    font-family:"lato", sans-serif;
     margin: 4px 2px;
     opacity: 0.6;
     transition: 0.3s;
@@ -382,7 +382,7 @@ footer {
     #hero-text, #main-text {
         text-align: center;
         font-size: 25px;
-        font-family: "oswald", sans serif; 
+        font-family: "oswald", sans-serif; 
         margin-top: 10px; 
      }
 }
