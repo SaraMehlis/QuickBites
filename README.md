@@ -39,6 +39,7 @@ AS a user, I want to,
  <li>The footer</li>
   The footer is featured on all four pages and is identical on each page making it easy to use. It contains three links to social media sites associated with the website encouraging the user to keep connected. The links will open in a new tab to allow easy navigation for the user. The company can use these sites to promote the brand and keep customers interested. 
   <li>Images</li>
+  <img src="assets/images/italian-cusine-img.jpg" alt="Italian flag with ingredients">
   
   <!--Recipes section-->
   <li>About Page</li>
