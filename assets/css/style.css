@@ -101,7 +101,7 @@ main {
 
  #hero-text {
     text-align: center;
-    font-size: large;
+    font-size: 40px;
     font-family: "oswald", sans serif; 
     margin-top: 10px; 
  }
@@ -112,7 +112,7 @@ main {
     margin-bottom: 35px;
     margin-top: 20px;
     text-align: center;
-    font-size: 280%;
+    font-size: 250%;
 }
 /*-----------------------------------------Main icons hover effect & color*/
 
@@ -147,7 +147,8 @@ h2 > a {
     justify-content: space-around;
 }
 
-#image-container > img {
+#image-container > a > img {
+    box-shadow: 0 4px 8px rgba(0.4, 0.4, 0.4, 0.7);
     margin-top: 20px;
     margin-bottom: 20px;
     height: 400px;
