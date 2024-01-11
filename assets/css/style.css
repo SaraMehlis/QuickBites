@@ -1,6 +1,6 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Italianno&display=swap');
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -53,6 +53,10 @@ h1 {
     margin-bottom: 1em;
 }
 
+#logo {
+    font-family: "Caveat";
+    font-weight: 400;
+}
 
 /* -------------------------Navbar styles with dropdown toggle */
 nav {
@@ -101,16 +105,56 @@ main {
     font-size: 30px;
     font-family: "oswald", sans serif; 
     margin-top: 10px; 
+    font-weight: 300;
  }
+
+ #maintext-home {
+    text-shadow: 0.5px 0.5px 0.5px #000000;
+    letter-spacing: 0.1em;
+    color: black;
+    margin-bottom: 35px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 200%;
+}
+
+ .title {
+    text-shadow: 1px 1px 1px #000000;
+    text-transform: uppercase;
+    margin-bottom:50px;
+}
+
+#steps {
+    list-style-position: inside;
+    list-style-type: decimal;
+}
 
 #maintext {
     letter-spacing: 0.1em;
     color: black;
     margin-bottom: 35px;
-    margin-top: 20px;
+    margin-top: 90px;
     text-align: center;
     font-size: 200%;
 }
+
+#maintext-recipe {
+    letter-spacing: 0.1em;
+    color: black;
+    margin-bottom: 35px;
+    margin-top: 90px;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 500;
+}
+
+#sub-heading  {
+    margin-bottom: 20px;
+
+}
+
+
+
 /*-----------------------------------------Content for MAIN ABOUT*/
 #hero-text-about {
     text-align: center;
@@ -122,7 +166,7 @@ main {
  #hero-text-about > p {
     text-align: center;
     font-size: 25px;
-    font-family: "oswald", sans serif; 
+    font-family: "LatoS", sans serif; 
     margin-top: 50px; 
     margin-bottom:30px
  }
@@ -326,9 +370,11 @@ footer {
 
 @media screen and (max-width: 720px) {
     #image-container {
-        display: none;
+        display:none;
+        }
+        
     }
-}
+
 
 /*------------------Media query for homepage text--*/
 
@@ -361,7 +407,7 @@ footer {
         letter-spacing: 0.2em;
         color:black;
         padding-bottom: 80px;
-        margin-bottom: 200px;
+        margin-bottom: 300px;
         display: flex;
         flex-direction: column;
         align-items: center;
