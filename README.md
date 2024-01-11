@@ -91,6 +91,17 @@ Black and white colors were kept simple for readability and to minimise distract
 
 <h3><ins>Testing</ins></h3>
 
+  Validator for Html is Nu Html Checker.
+  <ul>
+    <li>Result for home page:</li>
+   <li>Result for recipes page:</li>
+
+  <li>Result for about page:</li>
+
+  <li>Result for contact us page:</li> 
+  </ul>
+
+
 
 <h3><ins>Deployment:</ins></h3>
 This site was deployed by completing the following steps:
@@ -115,6 +126,7 @@ Features which could be implemented in the future
   <li>Expand our recipes data base.</li>
   <li>Add images to every recipes so user know how the recipes will be looked like once cooked.</li>
   <li>Add signup section, so users can have weekly newsletters.</li>
+  <li>Add videos to the difficult recipes to make the instructions clear.</li>
 </ul>
 
 
