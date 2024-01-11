@@ -19,8 +19,8 @@
 </ul>
 
 
-<h3>User Experience- UX</h3>
-<p>AS a user, I want to, 
+<h3><ins>User Experience-UX</ins></h3>
+AS a user, I want to, 
   <ul>
 <li>	easily understand the main purpose of the site and learn more about the organisation to have clarity.</li>
 <li>	be able to easily navigate throughout the site to find content.</li>
@@ -31,4 +31,15 @@
 <li>  Have an interactive community section, So that I can engage with fellow food enthusiasts, share my cooking experiences, and ask for advice.</li>
 <li>  subscribe to a newsletter, So that I can receive regular updates on new recipes, cooking trends.</li>
     </ul>
-</p>
+
+<h3><ins>Features</ins></h3>
+<ul>
+  <li>Navigation bar:</li>
+  The navigation bar has a consistent look in all four pages of the website supporting easy navigation. It includes a simple Logo, Home page, Recipes, About and Contact us links and is responsive on multiple screen sizes. On small screens (e.g. mobile devices) the Home, Recipes, About and Contact us links move to under the Logo.
+  <!--Recipes section-->
+  <li>About Page</li>
+  <li>Contact us page:</li>
+  The Contact Us section allows the user to send a message/give feedback to the company. The user is asked to provide their name and email address when sending a message.
+  
+</ul>
+
