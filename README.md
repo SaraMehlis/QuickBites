@@ -92,4 +92,29 @@ Black and white colors were kept simple for readability and to minimise distract
 <h3><ins>Testing</ins></h3>
 
 
+<h3><ins>Deployment:</ins></h3>
+This site was deployed by completing the following steps:
+<ol>
+  <li>In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu</li>
+  <li>From the source section drop-down menu, select the Main Branch</li>
+  <li>Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment</li>
+</ol>
+<p>The live link can be found here</p>
+
+The team used Forking by following the steps:
+<ol>
+  <li>Open GitHub</li>
+  <li>Find the 'Fork' button at the top right of the page</li>
+  <li>Once you click the button the fork will be in your repository</li>
+</ol>
+
+
+<h3><ins>Future features</ins></h3>
+Features which could be implemented in the future
+<ul>
+  <li>Expand our recipes data base.</li>
+  <li>Add images to every recipes so user know how the recipes will be looked like once cooked.</li>
+  <li>Add signup section, so users can have weekly newsletters.</li>
+</ul>
+
 
