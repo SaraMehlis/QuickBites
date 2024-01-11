@@ -100,9 +100,9 @@ main {
  }
 
  #hero-text {
-    display:flex;
-    justify-content: center;
-
+    text-align: center;
+    font-size: large;
+    font-family: "oswald", sans serif;  
  }
 
 #maintext {
@@ -133,11 +133,16 @@ h2 > a {
     font-family: "lato", sans-serif;
     letter-spacing: 0.2em;
     color:black;
-    margin-top: 20px;
+    margin-top: 20px, 20px, 20, 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 
+}
+
+div > h2 > img {
+    height: 30px;
+    width:30px;
 }
 
  
@@ -202,8 +207,22 @@ h2 > a {
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 720px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
+    }
+}
+
+/* Media query: tablets and larger (720px and up) */
+@media screen and (max-width: 720px) {
+    /* body */
+    #main-icons {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        box-shadow: none;
+        width: fit-content;
+        padding: 50px 15px 50px 15px;
+
     }
 }
