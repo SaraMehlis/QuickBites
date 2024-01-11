@@ -103,6 +103,15 @@ main {
     margin-top: 10px; 
  }
 
+ #maintext-home {
+    letter-spacing: 0.1em;
+    color: black;
+    margin-bottom: 35px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 200%;
+}
+
  .title {
     text-shadow: 1px 1px 1px #000000;
     text-transform: uppercase;
