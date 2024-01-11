@@ -53,3 +53,18 @@ Each type of food section had main image to help keep the site clear and easy to
   
 </ul>
 
+<h3><ins>Design</ins></h3>
+<ul>
+
+<li>Balsamiq wireframe</li>
+Balsamiq was used to create a low-fidelity wireframe for design purposes.
+<p align="center"><img src="assets/images/home page.png" alt="Balsamiq wireframe for home page"></p>
+<p align="center"><img src="assets/images/about us.png" alt="Balsamiq wireframe for about us page"></p>
+<p align="center"><img src="assets/images/contact page.png" alt="Balsamiq wireframe for contact us page"></p>
+
+<li>Font</li>
+Google Fonts were used to import Lato and Oswald fonts into styles.css. These were chosen as they work well together and have a simple feel that is easy to read.
+
+<li>Color scheme</li>
+Black and white colors were mainly chosen to provide a good contrast making font easier to read. Green and red accents were added to reflect the Italian theme.
+
