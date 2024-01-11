@@ -140,32 +140,35 @@ h2 > a {
 
 }
 
-div > h2 > img {
-    height: 30px;
-    width:30px;
+#icon-img {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100px;
+    width:100px;
 }
 
  /*--------------------------------form contact us*/
 
- /* Form */
 #contact-us {
-    background-image: url("../images/signup-image.webp");
+    background-image: url("../images/italian-cusine-img.jpg");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
 
+#form-heading {
+    color:white;
+    margin-bottom: 30px;
+}
 
 #contact-us-form {
+    max-width: 600px;
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
-}
-
-
-#contact-us-form > h2 {
-    color: #fafafa;
+    top: 80px;
     margin-bottom: 20px;
 }
 
@@ -181,23 +184,36 @@ div > h2 > img {
     padding: 0 5px;
 }
 
-
-.radio-buttons {
+.text-input-feedback {
+    background: transparent;
+    color: #fafafa;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    height: 200px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
 }
-
+/*----------------------------send button--*/
 
 .join-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px;
-    font-size: 100%;
-    background-color: #454b1b;
-    color: #fafafa;
-}
-
+    background-color:black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-family:"lato", sans serif;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5%;
+  }
+  
+  .join-button:hover {opacity: 1}
 
 
 
@@ -266,6 +282,7 @@ div > h2 > img {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
+    
 }
 
 /* Media query: tablets and larger (720px and up) */
