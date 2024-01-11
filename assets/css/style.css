@@ -140,12 +140,16 @@ h2 > a {
 
 }
 
-#icon-img {
+#image-container {
     display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: 100px;
-    width:100px;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#image-container > img {
+    margin-top: 20px;
+    height: 400px;
+    width: 400px;
 }
 
  /*--------------------------------form contact us*/
@@ -160,7 +164,7 @@ h2 > a {
 
 #form-heading {
     color:white;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #contact-us-form {
@@ -168,7 +172,6 @@ h2 > a {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
-    top: 80px;
     margin-bottom: 20px;
 }
 
