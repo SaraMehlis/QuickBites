@@ -66,5 +66,30 @@ Balsamiq was used to create a low-fidelity wireframe for design purposes.
 Google Fonts were used to import Lato and Oswald fonts into styles.css. These were chosen as they work well together and have a simple feel that is easy to read.
 
 <li>Color scheme</li>
-Black and white colors were mainly chosen to provide a good contrast making font easier to read. Green and red accents were added to reflect the Italian theme.
+Black and white colors were kept simple for readability and to minimise distraction.Green and red accents were added to reflect the Italian theme.
+
+</ul>
+
+
+<h3><ins>Technology Used</ins></h3>
+<ul>
+  <li>Languages used:</li>
+  Html5 and Css3.
+
+  <li>Websites:</li>
+  <ul>
+  <li>  GitHub is used as the respository for the projects code also used to create issues and Kanban board.</li>
+  <li>  GitPod is used as a workspace.</li>
+  <li>  Google font is used to import fonts.</li>
+  <li>  Fontawsome is used to add icons for UX purposes.</li>
+  <li>  Favicon.io is used to create favicon.</li>
+  <li>  Contrast Checker is used for accessibility and readability.</li>
+ </ul> 
+
+</ul>
+
+
+<h3><ins>Testing</ins></h3>
+
+
 
