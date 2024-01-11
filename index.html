@@ -20,17 +20,12 @@
 </head>
 
 <body>
-    <!--header-->
+    <!--------------------------------------------------------------------------header-->
     <header>
         <a href="index.html">
             <h1 id="logo">QuickBites</h1>
         </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label">
-            <i class="fa-solid fa-bars"></i>
-        </label>
         <nav>
-
             <ul id="menu">
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="recipes.html">Recipes</a></li>
@@ -40,9 +35,13 @@
 
             </ul>
         </nav>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <i class="fa-solid fa-bars"></i>
+        </label>
     </header>
 
-    <!--main-->
+    <!----------------------------------------------------------------------------main-->
     <main>
         <div>
             <img id="hero">
@@ -61,6 +60,7 @@
             <div>
                 <h2><a href="pizza.html" id="main-icons-btn">
                         <i class="fa-solid fa-pizza-slice" class="button">Pizza</i>
+
                     </a>
                 </h2>
             </div>
@@ -81,9 +81,14 @@
 
             </div>
         </section>
+        <div id="image-container">
+            <a href="#pizza"><img src="assets/images/pizza.jpg" alt="image of a pizza" aria-label=""></a>
+            <a href="#pasta"><img src="assets/images/pasta.jpg" alt="image of pasta" aria-label=""></a>
+            <a href="#dessert"><img src="assets/images/dessert.jpg" alt="image of a dessert" aria-label=""></a>
+        </div>
     </main>
 
-    <!--footer-->
+    <!--------------------------------------------------------------------------footer--->
     <footer>
         <div id="copyright">
             <p>Copyright © DivDynamos 2024</p>
@@ -106,7 +111,7 @@
             </li>
         </ul>
     </footer>
-    <!--font awsome kit-->
+    <!----------------------------------------------------------------------font awsome kit-->
     <script src="https://kit.fontawesome.com/5cfbdf6ce3.js" crossorigin="anonymous"></script>
 </body>
 

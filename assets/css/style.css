@@ -53,9 +53,6 @@ h1 {
     margin-bottom: 1em;
 }
 
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
 
 /* -------------------------Navbar styles with dropdown toggle */
 nav {
@@ -100,9 +97,10 @@ main {
  }
 
  #hero-text {
-    display:flex;
-    justify-content: center;
-
+    text-align: center;
+    font-size: 30px;
+    font-family: "oswald", sans serif; 
+    margin-top: 10px; 
  }
 
 #maintext {
@@ -111,7 +109,7 @@ main {
     margin-bottom: 35px;
     margin-top: 20px;
     text-align: center;
-    font-size: 280%;
+    font-size: 200%;
 }
 /*-----------------------------------------Main icons hover effect & color*/
 
@@ -133,25 +131,109 @@ h2 > a {
     font-family: "lato", sans-serif;
     letter-spacing: 0.2em;
     color:black;
-    margin-top: 20px;
+    margin-top: 20px, 20px, 20, 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 
 }
 
- 
-/*-----------------------------------------Footer */
+#image-container {
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+}
 
+#image-container > a > img {
+    box-shadow: 0 4px 8px rgba(0.4, 0.4, 0.4, 0.7);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 400px;
+    width: 400px;
+}
+
+ /*--------------------------------form contact us*/
+
+#contact-us {
+    background-image: url("../images/italian-cusine-img.jpg");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#form-heading {
+    color:white;
+    margin-bottom: 20px;
+}
+
+#contact-us-form {
+    max-width: 600px;
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.text-input-feedback {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 200px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+/*----------------------------send button--*/
+
+.join-button {
+    background-color:black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-family:"lato", sans serif;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5%;
+  }
+  
+  .join-button:hover {opacity: 1}
+
+
+
+/*-----------------------------------------Footer */
+footer {
+    border-top: 1px solid #252525;
+}
 #copyright {
     color: black;
     text-align: center;
     font-family: "lato", sans-serif;
     margin-bottom: 5px;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 #social-networks {
+    border-top: #252525;
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -194,7 +276,7 @@ h2 > a {
         margin: 0 0.5rem;
     }
 
-    /* Main content */
+    /* Main conent*/
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
@@ -202,8 +284,77 @@ h2 > a {
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 720px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
+    
 }
+
+/* Media query: tablets and larger (720px and up) */
+@media screen and (max-width: 720px) {
+    /* body */
+    #main-icons {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        box-shadow: none;
+        width: fit-content;
+        padding: 50px 15px 50px 15px;
+
+
+    }
+}
+
+/*------------------Media query hides home page images on mobile--*/
+
+@media screen and (max-width: 720px) {
+    #image-container {
+        display: none;
+    }
+}
+
+/*------------------Media query for homepage text--*/
+
+@media screen and (max-width: 720px) {
+    #hero-text, #main-text {
+        text-align: center;
+        font-size: 25px;
+        font-family: "oswald", sans serif; 
+        margin-top: 10px; 
+     }
+}
+
+/*------------------Media query for homepage icons--*/
+
+@media screen and (max-width: 720px) {
+    h2 > a {
+        box-shadow: inset 0 0 0 0 #CE2B37;
+        color: black;
+        padding: 0 .25rem;
+        margin: 0 -.25rem;
+        transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+      }
+      h2 > a:hover {
+        color: #fff;
+        box-shadow: inset 200px 0 0 0 #009246;;
+      }
+    
+    #main-icons {
+        font-family: "lato", sans-serif;
+        letter-spacing: 0.2em;
+        color:black;
+        padding-bottom: 80px;
+        margin-bottom: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+
+    #main-icons div {
+        margin-bottom: 40px;
+        padding-left: 120%;
+    }
+     }
