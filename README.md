@@ -2,8 +2,8 @@
 <h3>project overview</h3>
 <p>QuickBites is for anyone who is passionate about bringing the delicious Flavors of Italy to their kitchen with easy-to-follow recipes that take under 30 minutes to prepare. Our recipes are designed to fit into your busy schedule without compromising on taste.</p>
 <p> <a href="https://saramehlis.github.io/QuickBites/" rel=nofollow>Live project Here</a> </p>
-<!--images from different screen sizes-->
 
+<p align="center"><img src="assets/images/am i responsive.png" alt="image with different devices"></p>
 
 <h3>Index:</h3>
 <ul>
@@ -70,7 +70,7 @@ Google Fonts were used to import Lato and Oswald fonts into styles.css. These we
 
 <li>Color scheme</li>
 Black and white colors were kept simple for readability and to minimise distraction.Green and red accents were added to reflect the Italian theme.
-
+Text colour is kept simple for readability and to minimise distraction.
 </ul>
 
 
@@ -81,10 +81,10 @@ Black and white colors were kept simple for readability and to minimise distract
 
   <li>Websites:</li>
   <ul>
-  <li>  GitHub is used as the respository for the projects code also used to create issues and Kanban board.</li>
+  <li>  GitHub is used as the repository for the projects code also used to create issues and Kanban board.</li>
   <li>  GitPod is used as a workspace.</li>
   <li>  Google font is used to import fonts.</li>
-  <li>  Fontawsome is used to add icons for UX purposes.</li>
+  <li>  Fontawesome is used to add icons for UX purposes.</li>
   <li>  Favicon.io is used to create favicon.</li>
   <li>  Contrast Checker is used for accessibility and readability.</li>
  </ul> 
@@ -104,16 +104,19 @@ Black and white colors were kept simple for readability and to minimise distract
   <p align="center"><img src="assets/images/css-check.png" alt="css validation result"></p>
 
 
+Navbar, social media icons pages were tested and all are working.
+  <p align="center"><img src="assets/images/form-working.png" alt="form-working"></p>
+  Form was tested as well and it is working fine.
 
 <h3><ins>Deployment:</ins></h3>
 This site was deployed by completing the following steps:
 <ol>
   <li>In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu</li>
   <li>From the source section drop-down menu, select the Main Branch</li>
-  <li>Once the mainr branch has been selected, folder is set to root click save. Go back to the code tab, wait for couple of minutes for the build to finish.</li>
+  <li>Once the main branch has been selected, folder is set to root click save. Go back to the code tab, wait for couple of minutes for the build to finish.</li>
   <li>refresh your repository, Go to setting, choose environment , then github pages, the link will be there.</li>
 </ol>
-<p>The live link can be found here: https://saramehlis.github.io/QuickBites/index.html</p>
+<p> <a href="https://saramehlis.github.io/QuickBites/" rel=nofollow>Live project Here</a> </p>
 
 The team used Forking by following the steps:
 <ol>
@@ -121,6 +124,9 @@ The team used Forking by following the steps:
   <li>Find the 'Fork' button at the top right of the page</li>
   <li>Once you click the button the fork will be in your repository</li>
 </ol>
+
+<h3><ins>Bugs:</ins></h3>
+the site only has 2 wornings because of google fonts.
 
 
 <h3><ins>Future features</ins></h3>
@@ -130,6 +136,15 @@ Features which could be implemented in the future
   <li>Add images to every recipes so user know how the recipes will be looked like once cooked.</li>
   <li>Add signup section, so users can have weekly newsletters.</li>
   <li>Add videos to the difficult recipes to make the instructions clear.</li>
+</ul>
+
+<h3><ins>Credits</ins></h3>
+<ul>
+<li>All food recipes were taken from <a href="https://www.simplyrecipes.com/">Simple recipes</a></li>
+<li>The images were taken from <a href="https://www.pinterest.co.uk/">Pinterest</a></li>
+<li>Navbar drop menu was inspired from love running project</li>
+<li>Food section in home page was inspired from coffee coders project</li>
+<li><a href="https://www.w3schools.com/">w3school</a></li>
 </ul>
 
 
