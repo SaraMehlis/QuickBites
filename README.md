@@ -126,7 +126,17 @@ The team used Forking by following the steps:
 </ol>
 
 <h3><ins>Bugs:</ins></h3>
-the site only has 2 wornings because of google fonts.
+Food section zoom out issue on iphone 15
+<div style="display: flex; justify-content: space-evenly;">
+<img src="assets/images/bug.jpg" alt="iphone 15 home page screenshot" width="35%" height="auto">
+<img src="assets/images/bug1.jpg" alt="iphone 15 bug screenshot" width="35%" height="auto">
+</div>
+<p>Expected behavior:The Food section should display the recipes page when clicked.</p>
+<p>Actual behavior:When clicking on the "Food" section on an iPhone 15, the food section unexpectedly zooms out, affecting the user experience.</p>
+<ul><li>Device: iphone 15</li>
+<li>Operation system: ios version 17.0.3</li>
+<li>Browser: Safari</li>
+</ul>
 
 
 <h3><ins>Future features</ins></h3>
