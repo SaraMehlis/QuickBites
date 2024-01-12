@@ -93,13 +93,12 @@ Black and white colors were kept simple for readability and to minimise distract
 
   Validator for Html is Nu Html Checker.
   <ul>
-    <li>Result for home page:</li>
-   <li>Result for recipes page:</li>
-
-  <li>Result for about page:</li>
-
-  <li>Result for contact us page:</li> 
+    <li>Result for home page, recipes page, about page and contact us page:</li>
+    <p align="center"><img src="assets/images/html-check.png" alt="html checker result"></p>
   </ul>
+
+  Validator for Css is w3c css.
+  <p align="center"><img src="assets/images/css-check.png" alt="css validation result"></p>
 
 
 
