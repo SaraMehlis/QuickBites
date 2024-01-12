@@ -42,10 +42,11 @@ AS a user, I want to,
   The footer is featured on all four pages and is identical on each page making it easy to use. It contains three links to social media sites associated with the website encouraging the user to keep connected. The links will open in a new tab to allow easy navigation for the user. The company can use these sites to promote the brand and keep customers interested. 
   <li>Images</li>
   <img src="assets/images/italian-cusine-img.jpg" alt="Italian flag with ingredients">
-  The Images have been chosen to reflect the aim of the site (the Italian flag and famoue food ingredients).
+  The Images have been chosen to reflect the aim of the site (the Italian flag and famous food ingredients).
 Each type of food section had main image to help keep the site clear and easy to use.
   <li>Recipes section in the home page</li>
-  This part has been split into three parts each part has a clickable image that open in the recipes page to avoid crowdiness in home page for good user experience.
+  <p align="center"><img src="assets/images/food-section-screenshot.png" alt="food-section-screenshot"></p>
+  This part has been split into three parts each part has a clickable image that open in the recipes page to avoid crowdediness in home page for good user experience.
   <li>Recipes page</li>
   Contains a list of the recipes that could be cooked in less than 30 minutes.
   <li>About Page</li>
