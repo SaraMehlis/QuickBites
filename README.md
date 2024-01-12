@@ -107,9 +107,10 @@ This site was deployed by completing the following steps:
 <ol>
   <li>In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu</li>
   <li>From the source section drop-down menu, select the Main Branch</li>
-  <li>Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment</li>
+  <li>Once the mainr branch has been selected, folder is set to root click save. Go back to the code tab, wait for couple of minutes for the build to finish.</li>
+  <li>refresh your repository, Go to setting, choose environment , then github pages, the link will be there.</li>
 </ol>
-<p>The live link can be found here</p>
+<p>The live link can be found here: https://saramehlis.github.io/QuickBites/index.html</p>
 
 The team used Forking by following the steps:
 <ol>
